@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Mathematical Data Science" content="Welcome to the Data Analytics Lab at Department of Economics at the National and Kapodistrian University of Athens">
+	<title>Contact | MathDataLab - NKUA</title>
+	<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+	<header>
+	    <h1>Laboratory of Analytics and Data Science</h1>
+	    <nav>
+		<ul>
+		    <li><a href="index.html">Home</a></li>
+		    <li><a href="team.html">People</a></li>
+		    <li><a href="publications.html">Publications</a></li>
+		    <li><a href="education.html">Education</a></li>
+		    <li><a class="active" href="contact.html">Contact</a></li>
+		</ul>
+	    </nav>
+	</header>
+	<section id="contact">
+            <div class="container">
+		<h1>Contact</h1>
+		<h2>Laboratory of Analytics and Data Science</h2>
+		<p>Department of Economics</p>
+		<p>Division VI Mathematics and Informatics</p>
+		<p>National and Kapodistrian University of Athens (NKUA)</p>
+		<P>Mail: 1, Sofokleous str., 6th floor</P>
+		<p>Athens 105 59, Greece</p>
+		<p>Email: mdsnkua[at]outlook[dot]com</p>
+
+		<!-- Contact Person Prof. Leventides -->
+		
+		<h1>Contact Person</h1>
+		<p>Prof. Ioannis Leventides</p>
+		<p>Email: ylevent[at]econ[dot]uoa[dot]gr</p>
+		<p>Phone: (+30) 210 368 9412</p>
+		
+		<!-- Social Media -->
+		
+		<h1>Social Media</h1>
+		<table id = "contactTable">
+		    <tr><td id = "contactTable" ><a href="https://github.com/mdsnkua" target ="_blank">GitHub</a></td></tr>
+		    <tr><td id = "contactTable">LinkedIn</td></tr>
+		</table>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.855418192735!2d23.724934092262593!3d37.98050332792578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd3b033611e1%3A0x8fe7e677e64907fc!2sSofokleous%201%2C%20Athina%20105%2059%2C%20Greece!5e0!3m2!1sen!2sat!4v1708649019274!5m2!1sen!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+	</section>
+	
+	<footer>
+            <p>&copy; 2024 Laboratory of Analytics and Data Science - Department of Economics - National and Kapodistrian University of Athens</p>
+	</footer>
+    </body>
+</html>

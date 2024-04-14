@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Interactive Tiles with Text</title>
+	<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+	<div class="image-tile-container">
+	    <div class="image-tile">
+		<img src="image1.jpg" alt="Image 1 description">
+		<div class="tile-text">Image 1 Text</div>
+	    </div>
+	    <div class="image-tile">
+		<img src="image2.jpg" alt="Image 2 description">
+		<div class="tile-text">Image 2 Text</div>
+	    </div>
+	</div>
+	<script src="script.js"></script>
+    </body>
+</html>

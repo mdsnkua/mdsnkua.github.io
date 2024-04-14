@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Mathematical Data Science" content="Laboratory of Analytics and Data Science, Department of Economics, National and Kapodistrian University of Athens, NKUA, Data Analytics Greece, Machine Learning, Economics, Mathematics, Statistics, ECON, UOA, Data Analytics">
+	<title>Home | MathDataLab - NKUA</title>
+	<link rel="stylesheet" href="styles.css">
+	<style id="mainPageImage">
+	 body{
+	     opacity:0.6;
+	     background-image: url('nkuaOpacity40.png'); /* Replace 'your-image-file.jpg' with the path to your image file */
+	     background-size: cover; /* This ensures that the background image covers the entire viewport */
+	     background-repeat: no-repeat; /* Prevents the background image from repeating */
+	     background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+	     height:100%;
+	 }
+	</style>
+    </head>
+    <body>
+	<header>
+	     <div class="container">
+            <div class="banner">
+                <img src="banner.webp" alt="Banner Photo" width = "400" height = "450">
+		<h1>Laboratory of Analytics and Data Science</h1>
+		<h3>National and Kapodistrian University of Athens</h3>
+		<h4>Department of Economics</h4>
+            <nav>
+		<ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="team.html">People</a></li>
+		    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+		</ul>
+            </nav>
+	</header>
+
+	<section id="index">
+            <div class="container"> <font size="5" style="color:blue">
+		<p > <b>Welcome </b>to the Laboratory of Analytics and Data Science at the <a href="https://en.econ.uoa.gr/">Department of Economics</a> at the <a href="https://en.uoa.gr/">National and Kapodistrian University of Athens</a>. The Laboratory of Analytics and Data Science of the National and Kapodistrian University of Athens was founded in 2017. Our mission is to develop innovative ideas and techniques in the areas of Analytics, Data Science, and Artificial Intelligence.</p>
+		<p>The last decade has been characterized by a dramatic rise in computer power and in data and scientific break-troughs. These advances, on the one hand, have created new perspectives (not only in science, but also in economy, business and industry) and, on the other hand, they have led to new challenges. Therefore, the need for a lab oriented towards these areas has been emerged.
+		</p>    
+		<p> Our aim is:
+		    <ul>
+			<li>To advance world-class research in the areas of (pure and applied) mathematics</li>
+			<li>Data science and artificial intelligence</li>
+		    </ul>
+		</p>
+		<p>Our work supports both theoretical developments and application to real problems. Much of our research is driven by real-world problems, since it is one of our primary objectives to bridge the gap between academic work and its applications.
+		</p>  
+
+		<p> Moreover, we are seeking to establish further collaboration with universities, businesses, public and third sector organizations. We undertake research that tackles challenges in science, business and economy.</p>
+		</font>
+		<!-- <img align="right" alt="Crossword Lab" src="labCrossword.png"> -->
+		<!-- Services -->
+            </div>
+	</section>
+
+	<div class="tile" onmouseover="flip(this)" onmouseout="flipBack(this)">
+	    <div class="front" style="font-size:50px"><b style="color:blue">Big Data Analytics</b></div>
+	    <div class="back" style="font-size:25px">
+		<div class="container">
+		    <h2>Services</h2>
+		    <ul>
+			<li>Big data analysis</li>
+			<li>Machine learning</li>
+			<li>Interbank data</li>
+			<li>Credit Risk and Credit Ratings</li>
+			<li>Business and Financial Data</li>
+			<li>Economic networks</li>
+			<li>Data driven decision making</li>
+			<li>Data Analysis</li>
+			<li>Data Visualization</li>
+			<li>Mathematical Statistics</li>
+			<li>Machine Learning</li>
+			<li>etc.</li>
+		    </ul>
+		</div>
+	    </div>
+	</div>
+	
+	<div class="tile" onmouseover="flip(this)" onmouseout="flipBack(this)">
+	    <div class="front" style="font-size:50px"><b style="color:blue">Marketing</b></div>
+	    <div class="back" style="font-size:25px">
+		<div class="container">
+		    <h2>Sercives</h2>
+		    <ul>
+			<li>Recognizing key performance indicators (KPIs) to measure growth and success</li>
+			<li>Understanding consumer behaviour</li>
+			<li>Utilizing advanced mathematical tools to gain deeper insights</li>
+			<li>Utilizing advanced data analytics tools for successful campaigns</li>
+			<li>etc.</li>
+		    </ul>
+		</div>
+	    </div>
+	</div>
+	<div class="tile" onmouseover="flip(this)" onmouseout="flipBack(this)">
+	    <div class="front" style="font-size:50px"><b style="color:blue">Finance </b></div>
+	    <div class="back" style="font-size:25px">
+		<div class="container">
+		    <h2>Sercives</h2>
+		    <ul>
+			<li>ESG</li>
+			<li>Algorithmic traiding</li>
+			<li>Investment analysis</li>
+			<li>Regulatory compliances</li>
+			<li>Credit scoring and underwitting</li>
+			<li>etc.</li>
+		    </ul>
+		</div>
+	    </div>
+	</div>
+	<div class="tile" onmouseover="flip(this)" onmouseout="flipBack(this)">
+	    <div class="front" style="font-size:50px"><b style="color:blue">Banking Sector</b></div>
+	    <div class="back" style="font-size:25px">
+		<div class="container">
+		    <h2>Sercives</h2>
+		    <ul>
+			<li>Customer Analytics</li>
+			<li>Computing anti-fraud detector</li>
+			<li>Loan default prediction</li>
+			<li>Risk management</li>
+			<li>Marketing and sales optimization</li>
+			<li>Credit scoring</li>
+			<li>Predictive analytics</li>
+			<li>Digital banking services </li>
+			<li>etc.</li>
+		    </ul>
+		</div>
+	    </div>
+	</div>
+	<script src="script.js"></script>
+
+	
+	<section id="index">
+	    <div class="container">
+		<font size="5" style="color:blue">
+		    <p>Two well-known professors lead our laboratory. <a href="https://en.econ.uoa.gr/index.php?id=31623" target="_blank">Prof. Ioannis Leventides</a> and <a href="http://scholar.uoa.gr/demetri" target="_blank">Prof. Ioannis C. Demetriou</a>.
+		    </p>
+		    <p style="font-size:25px"><b style="color:MediumBlue"> Prof. Ioannis Leventides:</b>
+		    </p>
+		    <p>
+			Director of the Data Analytics Lab at the
+			University of Athens, is a distinguished mathematician and visionary
+			leader. His expertise in data analytics, machine learning, and computation
+			bridges theory and application across sectors. Beyond academia, he has
+			held roles as a Section Head, management consultant, CRO and banker.
+			Additionally, he oversees the MSc in BIS-Analytics and the MBA in
+			Strategic Management within the Department of Economics at NKUA. Prof.
+			Leventidis’s impactful research has been showcased at renowned
+			conferences, while his advisory roles span organizations like NBG,
+			Eurobank, Planet SA, McKinsey & Co, the Postal Savings Bank, Aspis Bank
+			and Attica Bank. His team collaborates with various departments,
+			businesses, and industries, ensuring practical solutions. In summary, he
+			combines academic excellence with real-world impact, driving innovation in
+			data analytics.
+
+		    </p>
+
+		    <p style="font-size:25px"><b style="color:MediumBlue"> Prof. Ioannis C. Demetriou:</b>
+		    </p> 
+			In his research, he develops theory and algorithms for numerical approximation and optimization calculations accompanied by software development for general use, which focus on data smoothing by sign changes in the divided differences and its applications to science, engineering, medicine and economics.
+			Furthermore, a sample of his well-known contribution to reaserch projects are:
+			<ul>
+			    <li>He has identified procedures that solve routinely some challenging combinatorial optimization problems.</li>
+			    <li>He has published over 100 research papers in scientific journals, conference proceedings and volumes.</li>
+			    <li>He has developed Fortran software packages.</li>
+			    <li>He worked on the IBM 3082 and CDC Cyber mainframes</li>
+			    <li>The Sun SPARC Unix workstation</li>
+			    <li>The Tesla K20 GPU processor</li>
+			</ul>
+		</font>
+	    </div>
+	</section>
+	<!-- Footer -->
+	<footer>
+            <p>&copy; 2024 Laboratory of Analytics and Data Science - Department of Economics - National and Kapodistrian University of Athens; Creator: Dr. Nikolaos Poulios</p>
+	</footer>
+    </body>
+</html>
