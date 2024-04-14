@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Mathematical Data Science" content="Welcome to the Data Analytics Lab at Department of Economics at the National and Kapodistrian University of Athens">
+	<title>Education | MathDataLab - NKUA</title>
+	<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+	<header>
+            <h1>Laboratory of Analytics and Data Science </h1>
+	    <nav>
+		<ul>
+		    <li><a href="index.html">Home</a></li>
+		    <li><a href="team.html">People</a></li>
+		    <li><a href="publications.html">Publications</a></li>
+		    <li><a class="active" href="education.html">Education</a></li>
+		    <li><a href="contact.html">Contact</a></li>
+		</ul>
+	    </nav>
+	</header>
+
+	<section id="about">
+            <div class="container">
+		<h2>Education</h2>
+		<p style="font-size:25px">The laboratory supports a number of courses in undergraduate, postgraduate and doctoral studies of the Department of Economics of the University of Athens.</p>
+		<!-- Add more content about the lab -->
+            </div>
+	    <section id="about">
+		<div class="container">
+		    <h2>Completed PhD Thesis</h2>
+		    <p>Click on the button inside the tabbed menu:</p>
+		    
+		    <center>
+			<div class="tab">
+			    <button class="tablinks" onclick="openTab(event, 'phd')">PhD studies</button>
+			    <!-- <button class="tablinks" onclick="openTab(event, 'msc')">MSc studies</button> -->
+			</div>
+		    </center>
+		    <div id="phd" class="tabcontent">
+			<ol>
+			    <li><i>Financial Contagion in interbank networks</i>, Dr. Kalliopi Loukaki, 2019-20</li>
+			    <li><i>On the stability of random matrices</i>, Dr. Nikolaos C. Poulios, 2021-22</li>
+			    <li><i>Analysis of business cycles and fluctuations in Greece, based on dynamic and econometric models and analysis of their causation</i>, Dr. Aleka D. Sargenti, 2023-24</li>
+			</ol>
+		    </div>
+		</div>
+		<div class="container">
+		    <h2>Courses</h2>
+		    <p>Click on the buttons inside the tabbed menu:</p>
+		    
+		    <center>
+			<div class="tab">
+			    <button class="tablinks" onclick="openTab(event, 'bsc')">Undergraduate studies</button>
+			    <button class="tablinks" onclick="openTab(event, 'msc')">Postgraduate studies</button>
+			</div>
+		    </center>
+		    <div id="bsc" class="tabcontent">
+			<ol>
+			    <li>Mathematics for economists I</li>
+			    <li>Mathematics for economists II</li>
+			</ol>
+		    </div>
+		    <div id="msc" class="tabcontent">
+			<ol>
+			    <li>Managerial Economics and Decision Making</li>
+			    <li>Business Administration and Management - Innovation</li>
+			    <li>Financial Analysis</li>
+			    <li>Strategic Management, Organizational Behavior, Human Resource Management, Leadership, Topics on Business Law</li>
+			    <li>Information Technologies for Business Systems</li>
+			    <li>Business Information Systems and Project Management</li>
+			    <li>Data Bases, SQL</li>
+			    <li>Programming in Python and Computing Domains</li>
+			    <li>Data Science</li>
+			    <li>Machine Learning</li>
+			    <li>Quantitative Methods and Business Statistics</li>
+			    <li>Operations Research – Management Science: Modeling</li>
+			    <li>Business and Data Analytics</li>
+			    <li>Research Methods</li>
+			</ol>
+		    </div>
+		</div>
+	    </section>
+		    <script>
+		     function openTab(evt, tabName) {
+			 var i, tabcontent, tablinks;
+			 tabcontent = document.getElementsByClassName("tabcontent");
+			 for (i = 0; i < tabcontent.length; i++) {
+			     tabcontent[i].style.display = "none";
+			 }
+			 tablinks = document.getElementsByClassName("tablinks");
+			 for (i = 0; i < tablinks.length; i++) {
+			     tablinks[i].className = tablinks[i].className.replace(" active", "");
+			 }
+			 document.getElementById(tabName).style.display = "block";
+			 evt.currentTarget.className += " active";
+		     }
+		     // Get the element with id="defaultOpen" and click on it
+		     document.getElementById("defaultOpen").click();
+		    </script>
+	<footer>
+            <p>&copy; 2024 Laboratory of Analytics and Data Science - Department of Economics - National and Kapodistrian University of Athens</p>
+	</footer>
+    </body>
+</html>
